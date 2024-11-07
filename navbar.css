@@ -1,0 +1,80 @@
+body {
+    
+    margin: 0;
+   background-color: #d9d9b5;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    border: solid 5px grey;
+    
+}
+
+.navbar img {
+ width: 5%;
+ margin: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/* iPhone 12/13 Pro Max (430px wide) */
+@media only screen and (max-width: 430px) {
+    .navbar img {
+        width: 10%;
+    }
+
+    .navbar ul {
+        gap: 35px;
+    }
+
+    .navbar ul li a {
+        font-size: 10px;
+    }
+
+    .home img{
+        max-width: 100%;
+    }
+
+    .form-button{
+       display: flex;
+       justify-content: center;
+       
+    }
+    .form-button button{
+        width: 80%;
+        padding: 10px;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 20px;
+    }
+
+    .footer{
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        border: solid 5px grey;
+    }
+
+    .footer p{
+        font-size: 15px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace
+    }
+}
